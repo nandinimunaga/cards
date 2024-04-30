@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Product Cards Example</title>
+    <style>
+        /* Style for the card container */
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        /* Style for individual card */
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 250px;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        /* Hover effect for card */
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Style for card image */
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        /* Style for card title */
+        .card h3 {
+            margin: 10px 0;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* Style for card price */
+        .card p {
+            font-size: 14px;
+            color: green;
+            margin: 5px 0;
+        }
+
+        /* Additional paragraph style */
+        .card-description {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Product Cards Example</h1>
+
+    <div class="card-container">
+        <!-- Example card -->
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Product Image">
+            <h3>Product 1</h3>
+            <p>$19.99</p>
+            <p class="card-description">This is a short description of Product 1. It is an excellent product for everyday use and comes with great features.</p>
+        </div>
+
+        <!-- Another example card -->
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Product Image">
+            <h3>Product 2</h3>
+            <p>$29.99</p>
+            <p class="card-description">Product 2 offers outstanding performance and quality. It is perfect for both beginners and experts.</p>
+        </div>
+
+        <!-- More example cards -->
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Product Image">
+            <h3>Product 3</h3>
+            <p>$39.99</p>
+            <p class="card-description">Product 3 is known for its durability and reliability. It is a must-have for anyone looking for long-lasting quality.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Product Image">
+            <h3>Product 4</h3>
+            <p>$49.99</p>
+            <p class="card-description">Product 4 is a premium product with advanced features. It is designed to provide the best user experience.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
